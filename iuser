@@ -1,0 +1,26 @@
+
+from abc import ABC
+
+# Creating the interface class
+
+class iusers(ABC):
+
+    def register(self):
+        pass
+
+    def login(self):
+        pass
+
+    def search (self):
+        pass
+
+    def make_booking(self):
+        pass
+
+    def make_payment(self):
+        pass
+
+    def display_report(self):
+        pass
+
+   
